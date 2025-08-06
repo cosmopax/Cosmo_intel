@@ -7,10 +7,11 @@ on:
     types: [opened, reopened, synchronize]
 
 permissions:
-  contents: read           # for checkout
-  issues: write            # to post AI replies
-  pull-requests: write     # to comment on 
-  workflows: write
+  contents: read         # for actions/checkout
+  issues: write          # to post AI replies
+  pull-requests: write   # to comment on PRs
+  # workflows: write     
+
 jobs:
   run-gemini:
     runs-on: ubuntu-latest
