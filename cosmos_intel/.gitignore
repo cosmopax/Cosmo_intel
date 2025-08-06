@@ -1,0 +1,11 @@
+# Configuration files with secrets
+config.ini
+
+# Data files
+*.csv
+*.db
+
+# Python cache
+__pycache__/
+*.pyc
+.DS_Store

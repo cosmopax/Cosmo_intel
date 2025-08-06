@@ -1,0 +1,6 @@
+streamlit
+pandas
+praw
+tqdm
+spacy
+requests
