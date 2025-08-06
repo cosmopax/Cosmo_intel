@@ -4,3 +4,4 @@ praw
 tqdm
 spacy
 requests
+PyGithub
